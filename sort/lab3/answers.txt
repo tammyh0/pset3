@@ -1,0 +1,51 @@
+sort1 uses: Bubble Sort
+
+How do you know?: 
+In the best case (lower bound) where everything is already sorted, sort1 has the fastest running time.
+
+- random5000: .107s
+- random10000: .479s
+- random50000: 15.191s
+
+- reversed5000: .087s
+- reversed10000: .407s
+- reversed50000: 13.138s
+
+- sorted5000: .012s
+- sorted10000: .019s
+- sorted50000: 4.469s
+
+sort2 uses: Merge Sort
+
+How do you know?: 
+In the best case (lower bound) where everything is already sorted, sort2 has the second fastest running time.
+Additionally, in the worst case (upper bound) where everything is random, sort2 has the fastest running time.
+
+- random5000: .012s
+- random10000: .022s
+- random50000: 2.681s
+
+- reversed5000: .012s
+- reversed10000: .019s
+- reversed50000: 6.510s
+
+- sorted5000: .014s
+- sorted10000: .101s
+- sorted50000: 5.016s
+
+sort3 uses: Selection Sort
+
+How do you know?: 
+In the best case (lower bound) where everything is already sorted, sort3 has the slowest running time.
+
+- random5000: .041s
+- random10000: .188s
+- random50000: 7.209s
+
+- reversed5000: .033s
+- reversed10000: .231s
+- reversed50000: 9.012s
+
+- sorted5000: .033s
+- sorted10000: .259s
+- sorted50000: 9.348s
